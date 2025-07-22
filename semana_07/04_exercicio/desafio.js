@@ -16,7 +16,7 @@ const incompleteTaskIndex = tasks.findIndex(
 
 console.log("Índice da primeira tarefa incompleta:", incompleteTaskIndex)
 
-const hasCompleteTask = tasks.some((task) => task.completed && task.priority === "baixa")
+const hasCompleteTask = tasks.filter((task) => task.priority === "baixa").some((task) => task.completed);
 console.log("Existe pelo menos uma tarefa completa de baixa prioridade:", hasCompleteTask);
 
 const hasHighPriorityTaskIncomplete = tasks.filter((task) => task.priority == "alta").every((task) => !task.completed);
