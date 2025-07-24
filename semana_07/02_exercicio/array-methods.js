@@ -1,11 +1,4 @@
-# Exercício 2: forEach e Map
-
----
-
-_Crie um arquivo chamado `array-methods.js`_ e nele, para praticar, observe e _digite_ os códigos abaixo.
-
-```javascript
-// Exercício 2: forEach e map
+// Exericício 2: forEach e Map
 
 const products = [
   { id: 1, name: "Notebook", price: 1200, category: "Eletrônicos" },
@@ -18,12 +11,12 @@ const products = [
 // 1. Usando forEach para imprimir todos os produtos
 console.log("Lista de Produtos:");
 products.forEach((product, index) => {
-  console.log(`${index + 1}. ${product.name} - R$${product.price}`);
+  console.log(`${index + 1}. ${product.name} - R${product.price}`);
 });
 
-// 2. Usando map para criar um novo array apenas com nomes dos produtos
+// 2. Usando map para criar um novo array com nomes dos produtos
 const productNames = products.map((product) => product.name);
-console.log("\\nNomes dos Produtos:", productNames);
+console.log("\nNomes dos Produtos:", productNames);
 
 // 3. Usando map para criar um array de produtos com desconto de 10%
 const discountedProducts = products.map((product) => {
@@ -36,9 +29,8 @@ const discountedProducts = products.map((product) => {
 console.log("\\nProdutos com 10% de desconto:");
 discountedProducts.forEach((product) => {
   console.log(
-    `${product.name} - Original: R$${(product.price / 0.9).toFixed(
+    `${product.name} - Original: R${(product.price / 0.9).toFixed(
       2
-    )}, Com desconto: R$${product.price.toFixed(2)}`
+    )}, Com desconto: R${product.price.toFixed(2)}`
   );
 });
-```
