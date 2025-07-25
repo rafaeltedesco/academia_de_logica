@@ -6,7 +6,7 @@
 
 ### DOCUMENTAÇÃO
 
-**1. Instruções de Execução**
+### 👩🏽‍💻 **1. Instruções de Execução**
 
 Para rodar o comando do node.js e imprimir os resultados corretamente em sua máquina, existem 2 formas que podem ser feitas:
 
@@ -14,7 +14,7 @@ Para rodar o comando do node.js e imprimir os resultados corretamente em sua má
 
 ---
 
-### **Opção 1: Navegar até a pasta**
+**Opção 1: Navegar até a pasta**
 
 No terminal, vá até o diretório onde está o arquivo:
 
@@ -30,7 +30,7 @@ node strings.js
 
 ---
 
-### **Opção 2: Executar com o caminho completo a partir de onde você está**
+**Opção 2: Executar com o caminho completo a partir de onde você está**
 
 Se preferir ficar no diretório atual (`Academia_de_Logica_G15_Codificados`), execute assim:
 
@@ -42,7 +42,7 @@ node semana_06/02_exercicio/strings.js
 
 
 
-**2. Guia de Git para Iniciantes: Usando Git e GitHub em um Projeto Real Compartilhado**
+### 👾 **2. Guia de Git para Iniciantes: Usando Git e GitHub em um Projeto Real Compartilhado**
 
 ---
 
