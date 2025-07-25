@@ -3,14 +3,14 @@
 ---
 
 ## Repositório destinado aos exercícios da Academia de Lógica resolvidos pelo G15 Codificados 👩🏽‍💻👾💻
-    ```bash
-        *Juliana Cristina Alves Fioretti. 
-        *Marcella Garbes Rodrigues Costa. 
-        *Nathan da Silva Lopes. 
-        *Sarah Santana de Morais. 
-        *Tailane Oliveira dos Santos. 
-        *Wallace Ribeiro Joviano. 
-    ```
+```bash
+    * Juliana Cristina Alves Fioretti. 
+    * Marcella Garbes Rodrigues Costa. 
+    * Nathan da Silva Lopes. 
+    * Sarah Santana de Morais. 
+    * Tailane Oliveira dos Santos. 
+    * Wallace Ribeiro Joviano. 
+```
 
 ### DOCUMENTAÇÃO 📃
 
