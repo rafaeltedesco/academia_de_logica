@@ -9,6 +9,7 @@ const tasks = [
 // 1. Use findIndex para encontrar a posição da primeira tarefa incompleta
 const meetingIndex = tasks.findIndex((task) => !task.completed);
 console.log("Índice da tarefa incompleta:", meetingIndex);
+console.log("Posição da tarefa incompleta:", meetingIndex + 1);
 
 // 2. Use some para verificar se existe alguma tarefa de baixa prioridade completa
 const hasLowPriorityCompletedTask = tasks.some(
