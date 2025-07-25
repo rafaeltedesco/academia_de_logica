@@ -12,6 +12,8 @@
     * Wallace Ribeiro Joviano. 
 ```
 
+<br>
+
 ### DOCUMENTAÇÃO 📃
 
 ### 👩🏽‍💻 **1. Instruções de Execução**
@@ -48,7 +50,7 @@ node semana_06/02_exercicio/strings.js
 
 ---
 
-<br>
+<br><br>
 
 ### 👾 **2. Guia de Git para Iniciantes: Usando Git e GitHub em um Projeto Real Compartilhado**
 
