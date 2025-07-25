@@ -1,10 +1,3 @@
-# Exercício 4: findIndex, some e every
-
----
-
-_Crie um arquivo chamado `array-methods.js`_ e nele, para praticar, observe e _digite_ os códigos abaixo.
-
-```javascript
 // Exercício 4: findIndex, some e every
 
 const tasks = [
@@ -21,23 +14,22 @@ const meetingIndex = tasks.findIndex(
 );
 console.log("Índice da tarefa 'Participar da reunião':", meetingIndex);
 
-// 2. Usando some para verificar se há pelo menos uma tarefa de alta prioridade
+// 2. Usando some para verificar se há pelo menos uma tarefa de alta priridade
 const hasHighPriorityTask = tasks.some((task) => task.priority === "alta");
 console.log(
-  "\\nExiste pelo menos uma tarefa de alta prioridade:",
+  "\nExiste pelo menos uma tarefa de alta prioridade:",
   hasHighPriorityTask
 );
 
 // 3. Usando every para verificar se todas as tarefas estão completas
 const allTasksCompleted = tasks.every((task) => task.completed);
-console.log("\\nTodas as tarefas concluídas:", allTasksCompleted);
+console.log("\nTodas as tarefas concluídas:", allTasksCompleted);
 
 // 4. Combinando some e filter para encontrar tarefas incompletas de alta prioridade
 const incompleteHighPriorityTasks = tasks.filter(
   (task) => !task.completed && task.priority === "alta"
 );
 console.log(
-  "\\nTarefas incompletas de alta prioridade:",
+  "\nTarefas incompletas de alta prioridade:",
   incompleteHighPriorityTasks
 );
-```
