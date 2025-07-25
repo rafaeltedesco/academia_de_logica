@@ -12,7 +12,7 @@
     * Wallace Ribeiro Joviano. 
 ```
 
-<br>
+---
 
 ### DOCUMENTAÇÃO 📃
 
@@ -50,7 +50,7 @@ node semana_06/02_exercicio/strings.js
 
 ---
 
-<br><br>
+<br>
 
 ### 👾 **2. Guia de Git para Iniciantes: Usando Git e GitHub em um Projeto Real Compartilhado**
 
@@ -68,7 +68,7 @@ Este documento é um guia prático para quem está iniciando no uso do Git e Git
 
 ---
 
-### 🔶 1. Configuração Inicial
+#### 🔶 1. Configuração Inicial
 
 Certifique-se de ter Git instalado. Depois, configure seu nome e email:
 
@@ -79,7 +79,7 @@ git config --global user.email "seuemail@exemplo.com"
 
 ---
 
-### 📂 2. Clonar um Repositório do GitHub
+#### 📂 2. Clonar um Repositório do GitHub
 
 ```bash
 git clone https://github.com/usuario/nome-do-repositorio.git
@@ -93,7 +93,7 @@ cd nome-do-repositorio
 
 ---
 
-### 🔹 3. Verificar em Qual Branch Você Está
+#### 🔹 3. Verificar em Qual Branch Você Está
 
 ```bash
 git branch
@@ -103,7 +103,7 @@ A branch com \* antes do nome é a atual.
 
 ---
 
-### 🌐 4. Criar e Trocar de Branch
+#### 🌐 4. Criar e Trocar de Branch
 
 ```bash
 git checkout -b nome-da-nova-branch
@@ -117,7 +117,7 @@ git checkout nome-da-branch
 
 ---
 
-### 📁 5. Ver Todas as Branches Remotas
+#### 📁 5. Ver Todas as Branches Remotas
 
 ```bash
 git branch -r
@@ -125,7 +125,7 @@ git branch -r
 
 ---
 
-### ✉️ 6. Enviar Mudanças Para o GitHub
+#### ✉️ 6. Enviar Mudanças Para o GitHub
 
 1. Adicione arquivos:
 
@@ -147,7 +147,7 @@ git push -u origin nome-da-branch
 
 ---
 
-### ❌ 7. Corrigir Conflitos de Merge
+#### ❌ 7. Corrigir Conflitos de Merge
 
 Se, ao subir a branch, aparecer erro dizendo que existem conflitos:
 
@@ -178,7 +178,7 @@ git push
 
 ---
 
-### 🛡️ 8. Cuidados com a Branch `main`
+#### 🛡️ 8. Cuidados com a Branch `main`
 
 * **Nunca desenvolva direto na `main`**.
 * Sempre crie uma branch para novas features ou correções.
@@ -198,7 +198,7 @@ git pull origin main
 
 ---
 
-### 🔗 9. Merge de Branch no GitHub
+#### 🔗 9. Merge de Branch no GitHub
 
 * No GitHub, crie um Pull Request (PR).
 * Peça revisão de código se necessário.
@@ -207,7 +207,7 @@ git pull origin main
 
 ---
 
-### 📅 10. Fluxo Recomendado em Equipe
+#### 📅 10. Fluxo Recomendado em Equipe
 
 1. Sempre crie uma branch por tarefa.
 2. Suba para o GitHub com commits claros.
