@@ -218,6 +218,8 @@ git pull origin main
 
 ---
 
+<br>
+
 ### 🚀 Dicas Extras
 
 * Use `git status` com frequência para ver o que está acontecendo.
